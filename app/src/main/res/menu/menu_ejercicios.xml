@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ejer5_1" android:title="Ejercicio 5.1"/>
+    <item android:id="@+id/ejer5_2" android:title="Ejercicio 5.2"/>
+    <item android:id="@+id/ejer5_3" android:title="Ejercicio 5.3"/>
+    <item android:id="@+id/ejer5_4" android:title="Ejercicio 5.4"/>
+    <item android:id="@+id/ejer5_5" android:title="Ejercicio 5.5"/>
+    <item android:id="@+id/ejer5_6" android:title="Ejercicio 5.6"/>
+    <item android:id="@+id/ejer5_7" android:title="Ejercicio 5.7"/>
+</menu>

@@ -24,6 +24,15 @@ public class Ejer5_1_b extends AppCompatActivity implements View.OnClickListener
             textoConst.setTextColor(getColor(R.color.blue));
             textoConst.setTextSize(20);
             textoConst.setTypeface(Typeface.defaultFromStyle(Typeface.ITALIC));
+
+            Button btn1, btn2, btn3;
+            btn1 = findViewById(R.id.pantallaA);
+            btn2 = findViewById(R.id.pantallaC);
+            btn3 = findViewById(R.id.pantallaD);
+
+            btn1.setOnClickListener(this);
+            btn2.setOnClickListener(this);
+            btn3.setOnClickListener(this);
         }
 
     @Override

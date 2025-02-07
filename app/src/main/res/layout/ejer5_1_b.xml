@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ejer5_1.Ejer5_1a">
+    tools:context=".ejer5_1.Ejer5_2">
 
     <TextView
         android:id="@+id/textoConst"
@@ -29,7 +29,7 @@
             android:id="@+id/pantallaA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pantalla A"
+            android:text="@string/pantallaA"
             android:layout_marginEnd="10dp"
             />
 
@@ -37,13 +37,13 @@
             android:id="@+id/pantallaC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pantalla C"
+            android:text="@string/pantallaC"
             android:layout_marginEnd="10dp"/>
         <Button
             android:id="@+id/pantallaD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pantalla D"
+            android:text="@string/pantallaD"
             android:layout_marginEnd="10dp"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

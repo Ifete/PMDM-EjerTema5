@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EjerTema5</string>
+    <string name="pantallaA">Pant A</string>
+    <string name="pantallaB">Pant B</string>
+    <string name="pantallaC">Pant C</string>
+    <string name="pantallaD">Pant D</string>
 </resources>

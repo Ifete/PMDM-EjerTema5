@@ -21,9 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ejer5_1.Ejer5_1_b"/>
-        <activity android:name=".ejer5_1.Ejer5_1_c"/>
-        <activity android:name=".ejer5_1.Ejer5_1_d"/>
+        <activity android:name=".ejer5_1.Ejer5_1_b"  android:exported="true"/>
+        <activity android:name=".ejer5_1.Ejer5_1_c"  android:exported="true"/>
+        <activity android:name=".ejer5_1.Ejer5_1_d"  android:exported="true"/>
+        <activity android:name=".ejer5_2.Ejer5_2" android:exported="true"/>
     </application>
 
 </manifest>

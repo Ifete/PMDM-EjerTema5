@@ -5,14 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ejer5_1.Ejer5_1a">
+    tools:context=".ejer5_1.Ejer5_2">
 
     <TextView
-        android:id="@+id/textoConstXml"
+        android:id="@+id/textoConst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Texto escrito fuente umbrella"
-        android:textAppearance="@font/modak_regular"
         android:textStyle="bold"
         android:textSize="20dp"
         android:textColor="@color/red"
@@ -33,7 +32,7 @@
             android:id="@+id/pantallaA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pantalla A"
+            android:text="@string/pantallaA"
             android:layout_marginEnd="10dp"
             />
 
@@ -41,13 +40,13 @@
             android:id="@+id/pantallaB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pantalla B"
+            android:text="@string/pantallaB"
             android:layout_marginEnd="10dp"/>
         <Button
             android:id="@+id/pantallaC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pantalla C"
+            android:text="@string/pantallaC"
             android:layout_marginEnd="10dp"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
